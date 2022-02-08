@@ -1,7 +1,7 @@
 def sum_odd_numbers(list_of_numbers):
     sum =0
     
-    for number in list_of_numbers:
+    for number in range(len(list_of_numbers)):
         if number%2 != 0:
             sum = sum + number
 
